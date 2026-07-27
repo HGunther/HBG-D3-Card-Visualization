@@ -5,3 +5,4 @@ dist/
 .vscode/settings.json
 .env
 .env.local
+HBG-D3-Card-Visualization.code-workspace
