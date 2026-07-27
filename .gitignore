@@ -5,3 +5,4 @@ node_modules/
 .env
 .env.local
 HBG-D3-Card-Visualization.code-workspace
+/dist
