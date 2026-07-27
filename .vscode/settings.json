@@ -10,8 +10,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "files.exclude": {
-    "node_modules": true,
-    "dist": true
+    "node_modules": true
   },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
