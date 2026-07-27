@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3 Card Visualization</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      #container {
+        width: 100%;
+        max-width: 1200px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+
+      #visualization {
+        width: 100%;
+        height: 600px;
+        background: #f8f9fa;
+      }
+
+      h1 {
+        padding: 20px;
+        color: #333;
+        font-size: 24px;
+        border-bottom: 2px solid #667eea;
+      }
+
+      .node {
+        stroke: #fff;
+        stroke-width: 2px;
+        cursor: pointer;
+      }
+
+      .node:hover {
+        stroke-width: 3px;
+      }
+
+      .link {
+        stroke: #999;
+        stroke-opacity: 0.6;
+      }
+
+      .node-label {
+        font-size: 12px;
+        font-weight: bold;
+        text-anchor: middle;
+        pointer-events: none;
+        fill: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>D3 Card Visualization - Hello World 👋</h1>
+      <svg id="visualization"></svg>
+    </div>
+  </body>
+</html>
